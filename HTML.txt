@@ -1,0 +1,110 @@
+
+   
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Righteous&family=Sarala:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+    <header class="header">
+        <img src="assets/LogoPreta.png" alt="Logo DebiLouco">
+    </header>
+
+    <main class="container">
+        <article class="card">
+            <header class="card__header">
+                <p>Real para Dólar</p>
+                <img src="assets/dolar.png" alt="">
+            </header>
+            <form class="card__form">
+                <input type="text" id="real1" placeholder="o resultado da conversão é:">
+                <section class="content" id="resultadoDaConversaoRealDollar"></section>
+                <button type="button" onclick="moeda.converterRealDollar()">Converter</button>
+            </form>
+
+        </article>
+
+        <article class="card">
+            <header class="card__header">
+                <p>Real para Euro</p>
+                <img src="assets/euro.png" alt="">
+            </header>
+            <form class="card__form">
+                <input type="text" id="real2" placeholder="o resultado da conversão é:">
+                <section class="content" id="resultadoDaConversaoRealEuro"></section>
+                <button type="button" onclick="moeda.converterRealEuro()">Converter</button>
+            </form>
+        
+        </article>
+
+        <article class="card">
+            <header class="card__header">
+                <p>Real para Libras</p>
+                <img src="assets/libras.png" alt="">
+            </header>
+            <form class="card__form">
+                <input type="text" id="real3" placeholder="o resultado da conversão é:">
+                <section class="content" id="resultadoDaConversaoRealLibra"></section>
+                <button type="button" onclick="moeda.converterRealLibra()">Converter</button>
+            </form>
+
+        </article>
+
+        <article class="card">
+            <header class="card__header">
+                <p>Dólar para Real</p>
+                <img src="assets/real.png" alt="">
+            </header>
+            <form class="card__form">
+                <input type="text" id="dollar" placeholder="o resultado da conversão é:">
+                <section class="content" id="resultadoDaConversaoDollarReal"></section>
+                <button type="button" onclick="moeda.converterDollarReal()">Converter</button>
+            </form>
+
+        </article>
+
+        <article class="card">
+            <header class="card__header">
+                <p>Euro para Real</p>
+                <img src="assets/real.png" alt="">
+            </header>
+            <form class="card__form">
+                <input type="text" id="euro" placeholder="o resultado da conversão é:">
+                <section class="content" id="resultadoDaConversaoEuroReal"></section>
+                <button type="button" onclick="moeda.converterEuroReal()">Converter</button>
+            </form>
+
+        </article>
+
+        <article class="card">
+            <header class="card__header">
+                <p>Libras para Real</p>
+                <img src="assets/real.png" alt="">
+            </header>
+            <form class="card__form">
+                <input type="text" id="libra" placeholder="o resultado da conversão é:">
+                <section class="content" id="resultadoDaConversaoLibraReal"></section>
+                <button type="button" onclick="moeda.converterLibraReal()">Converter</button>
+            </form>
+            
+        </article>
+
+    </main>
+    
+</body>
+</html>
